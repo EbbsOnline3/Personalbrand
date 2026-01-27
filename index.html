@@ -356,10 +356,6 @@
             margin: 0 auto;
         }
 
-        #about {
-            padding-top: 8rem;
-        }
-
         .section-header {
             margin-bottom: 4rem;
             text-align: center;
@@ -836,7 +832,7 @@
     <section class="hero">
         <div class="hero-content">
             <div class="hero-text">
-                <div class="hero-label">Materials Engineer • Developer</div>
+                <div class="hero-label">Materials Engineer • FrontEnd Developer • Software Engineer</div>
                 <h1 class="hero-title">Ebenezer Ekuful</h1>
                 <p class="hero-subtitle">
                     Bridging engineering precision with digital innovation. Transforming materials science insights 
@@ -852,6 +848,7 @@
                     <div class="stat-card">
                         <div class="stat-number">3.52</div>
                         <div class="stat-label">GPA / 4.0</div>
+                        <div class="stat-number">65.29</div>
                     </div>
                     <div class="stat-card">
                         <div class="stat-number">2+</div>
@@ -1061,7 +1058,7 @@
                 Feel free to reach out through any of the channels below.
             </p>
             <div class="contact-methods">
-                <a href="/cdn-cgi/l/email-protection#95dee2f4f1e2faf0fee0f3e0f9d5f2f8f4fcf9bbf6faf8" class="contact-method">
+                <a href="mailto:Kwadwoekuful@gmail.com" class="contact-method">
                     <span class="contact-icon">📧</span>
                     <span>Email</span>
                 </a>
@@ -1083,14 +1080,14 @@
                 © 2026 Ebenezer Ekuful. Designed & Built with passion.
             </p>
             <div class="footer-links">
-                <a href="/cdn-cgi/l/email-protection#3378445257445c56584655465f73545e525a5f1d505c5e" class="footer-link" aria-label="Email">📧</a>
-                <a href="https://linkedin.com/in/ebenezer-ekuful" class="footer-link" aria-label="LinkedIn" target="_blank" rel="noopener">💼</a>
-                <a href="https://github.com/ebenezerekuful" class="footer-link" aria-label="GitHub" target="_blank" rel="noopener">💻</a>
+                <a href="mailto:Kwadwoekuful@gmail.com" class="footer-link" aria-label="Email">📧</a>
+                <a href="https://www.linkedin.com/in/ebenezer-ekuful-2896a5367" class="footer-link" aria-label="LinkedIn" target="_blank" rel="noopener">💼</a>
+                <a href="https://github.com/ebenezerekuful" class="footer-link" titlte="Github" aria-label="GitHub" target="_blank" rel="noopener">💻</a>
             </div>
         </div>
     </footer>
 
-    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+    <script>
         // Theme Toggle
         const themeToggle = document.getElementById('themeToggle');
         const htmlElement = document.documentElement;
@@ -1190,4 +1187,12 @@
                     heroObserver.unobserve(entry.target);
                 }
             });
+        }, { threshold: 0.2 });
+
+        const heroSection = document.querySelector('.hero');
+        if (heroSection) {
+            heroObserver.observe(heroSection);
         }
+    </script>
+</body>
+</html>
