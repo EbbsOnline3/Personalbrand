@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1220">
+  <meta name="description" content="Portfolio of Ebenezer Ekuful, a junior software developer focused on Python, Flask, JavaScript and React.">
+  <title>Ebenezer Ekuful | Junior Software Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{color-scheme:dark;--bg:#0b1220;--panel:#111c2e;--panel2:#152238;--text:#f1f5f9;--muted:#a9b8cb;--line:#26364d;--accent:#6ee7c2;--accent2:#9cb9ff;--shadow:0 18px 50px rgba(0,0,0,.2)}
+    [data-theme="light"]{color-scheme:light;--bg:#f5f7fb;--panel:#fff;--panel2:#edf2f8;--text:#132033;--muted:#53647a;--line:#d9e1ec;--accent:#087f68;--accent2:#375bc8;--shadow:0 18px 50px rgba(23,42,69,.08)}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:88px}body{margin:0;background:var(--bg);color:var(--text);font-family:"DM Sans",sans-serif;line-height:1.65}a{color:inherit}a:focus-visible,button:focus-visible{outline:3px solid var(--accent2);outline-offset:3px}.wrap{width:min(1080px,calc(100% - 40px));margin:auto}.mono{font-family:"DM Mono",monospace;font-size:.8rem;letter-spacing:.04em;color:var(--accent)}header{position:sticky;top:0;z-index:10;background:color-mix(in srgb,var(--bg) 90%,transparent);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}.nav{min-height:72px;display:flex;align-items:center;justify-content:space-between;gap:22px}.brand{text-decoration:none;font-family:Manrope,sans-serif;font-weight:800;font-size:1.08rem;letter-spacing:-.04em}.brand span{color:var(--accent)}.navlinks{display:flex;align-items:center;gap:22px}.navlinks a{text-decoration:none;color:var(--muted);font-size:.92rem}.navlinks a:hover{color:var(--text)}.theme{border:1px solid var(--line);background:var(--panel);color:var(--text);border-radius:999px;padding:8px 12px;cursor:pointer}.menu{display:none}.hero{padding:92px 0 76px;display:grid;grid-template-columns:minmax(0,1.35fr) minmax(260px,.65fr);gap:55px;align-items:center}.eyebrow{display:flex;align-items:center;gap:10px;margin-bottom:18px}.dot{width:8px;height:8px;background:var(--accent);border-radius:50%;box-shadow:0 0 0 5px color-mix(in srgb,var(--accent) 15%,transparent)}h1,h2,h3{font-family:Manrope,sans-serif;line-height:1.15;letter-spacing:-.04em}h1{font-size:clamp(2.8rem,6vw,4.7rem);margin:0 0 18px;max-width:720px}h1 span{color:var(--accent)}.lead{font-size:1.15rem;color:var(--muted);max-width:660px;margin:0 0 25px}.actions{display:flex;flex-wrap:wrap;gap:12px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;border:1px solid var(--line);border-radius:10px;padding:11px 16px;font-weight:700;font-size:.93rem;transition:transform .18s,border-color .18s}.btn:hover{transform:translateY(-2px);border-color:var(--accent)}.btn.primary{background:var(--accent);border-color:var(--accent);color:#06251e}.hero-card{background:linear-gradient(150deg,var(--panel),var(--panel2));border:1px solid var(--line);border-radius:22px;padding:26px;box-shadow:var(--shadow)}.avatar{width:66px;height:66px;display:grid;place-items:center;border-radius:18px;background:var(--accent);color:#06251e;font-family:Manrope,sans-serif;font-weight:800;font-size:1.3rem;margin-bottom:20px}.hero-card h2{font-size:1.25rem;margin:0 0 9px}.hero-card p{color:var(--muted);font-size:.94rem;margin:0 0 18px}.chips,.tags{display:flex;flex-wrap:wrap;gap:8px}.chip,.tag{border:1px solid var(--line);border-radius:999px;padding:5px 10px;color:var(--muted);font-size:.78rem}.section{padding:68px 0;border-top:1px solid var(--line)}.section-head{max-width:700px;margin-bottom:28px}.section-head h2{font-size:clamp(1.9rem,4vw,2.65rem);margin:9px 0 12px}.section-head p{margin:0;color:var(--muted)}.project-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.project{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:24px;display:flex;flex-direction:column;min-height:300px;transition:transform .2s,border-color .2s}.project:hover{transform:translateY(-4px);border-color:var(--accent)}.project-top{display:flex;align-items:flex-start;justify-content:space-between;gap:14px}.project-mark{width:43px;height:43px;display:grid;place-items:center;background:var(--panel2);border-radius:12px;font-size:1.25rem}.project h3{font-size:1.2rem;margin:18px 0 10px}.project p{color:var(--muted);font-size:.94rem;margin:0 0 16px}.tags{margin-bottom:22px}.tag{font-family:"DM Mono",monospace;font-size:.72rem}.project-links{display:flex;flex-wrap:wrap;gap:14px;margin-top:auto}.text-link{font-size:.9rem;font-weight:700;color:var(--accent);text-decoration:none}.text-link:hover{text-decoration:underline}.two-col{display:grid;grid-template-columns:1fr 1fr;gap:18px}.info-card{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:24px}.info-card h3{margin:0 0 14px;font-size:1.15rem}.info-card p,.info-card li{color:var(--muted);font-size:.94rem}.info-card ul{padding-left:20px;margin:0}.skill-list{display:grid;gap:14px}.skill-row{display:grid;grid-template-columns:120px 1fr;gap:16px;padding-bottom:14px;border-bottom:1px solid var(--line)}.skill-row:last-child{border:0;padding-bottom:0}.skill-row strong{font-size:.92rem}.skill-row span{color:var(--muted);font-size:.92rem}.education-line{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}.education-line p{margin:6px 0 0}.contact-panel{background:linear-gradient(130deg,var(--panel),var(--panel2));border:1px solid var(--line);border-radius:22px;padding:clamp(24px,5vw,46px);display:flex;align-items:center;justify-content:space-between;gap:24px}.contact-panel h2{font-size:clamp(1.7rem,4vw,2.4rem);margin:8px 0}.contact-panel p{color:var(--muted);margin:0;max-width:540px}.contact-actions{display:flex;flex-direction:column;gap:10px;min-width:170px}footer{padding:28px 0;color:var(--muted);font-size:.85rem}.footer-inner{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap}footer a{color:var(--muted);text-decoration:none}footer a:hover{color:var(--accent)}@media(max-width:760px){.hero{grid-template-columns:1fr;gap:28px;padding:64px 0}.project-grid,.two-col{grid-template-columns:1fr}.navlinks{gap:12px}.navlinks a{font-size:.82rem}.contact-panel{align-items:flex-start;flex-direction:column}.contact-actions{flex-direction:row;flex-wrap:wrap}.skill-row{grid-template-columns:1fr;gap:4px}}@media(max-width:540px){.wrap{width:min(100% - 28px,1080px)}.nav{min-height:64px;flex-wrap:wrap;padding:12px 0}.menu{display:inline-flex}.navlinks{display:none;width:100%;padding:4px 0 10px;flex-wrap:wrap}.navlinks.open{display:flex}.hero{padding-top:48px}.hero-card{padding:20px}.section{padding:52px 0}.project{padding:20px}}@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+  </style>
+</head>
+<body>
+<header>
+  <nav class="wrap nav" aria-label="Main navigation">
+    <a class="brand" href="#home">Ebenezer<span>.</span></a>
+    <button class="theme menu" id="menuToggle" aria-expanded="false" aria-controls="navlinks">Menu</button>
+    <div class="navlinks" id="navlinks">
+      <a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#background">Background</a><a href="#contact">Contact</a>
+      <button class="theme" id="themeToggle" type="button" aria-label="Switch color theme">☀ / ☾</button>
+    </div>
+  </nav>
+</header>
+<main id="home">
+  <div class="wrap hero">
+    <div>
+      <div class="eyebrow"><span class="dot"></span><span class="mono">JUNIOR SOFTWARE DEVELOPER · ACCRA, GHANA</span></div>
+      <h1>I build useful web experiences with <span>Python & React.</span></h1>
+      <p class="lead">I'm Ebenezer Ekuful, a developer trained in full-stack Python development with hands-on experience building web applications individually and with a team. I enjoy solving practical problems through thoughtful, maintainable software.</p>
+      <div class="actions">
+        <a class="btn primary" href="#projects">Explore my projects ↘</a>
+        <a class="btn" href="mailto:kwadwoekuful@gmail.com">Contact me</a>
+        <a class="btn" href="https://www.linkedin.com/in/ebenezer-ekuful/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+      </div>
+    </div>
+    <aside class="hero-card">
+      <div class="avatar" aria-hidden="true">EE</div>
+      <h2>Developer profile</h2>
+      <p>Focused on junior Python/Flask, React and full-stack opportunities. Open to remote, hybrid and on-site roles.</p>
+      <div class="chips">
+        <span class="chip">Python</span><span class="chip">Flask</span><span class="chip">JavaScript</span><span class="chip">React</span><span class="chip">SQL</span><span class="chip">Git</span>
+      </div>
+    </aside>
+  </div>
+
+  <section class="section" id="projects">
+    <div class="wrap">
+      <div class="section-head"><span class="mono">SELECTED WORK</span><h2>Projects that show how I build.</h2><p>I prioritize projects that demonstrate practical application development, user flows, data handling and collaboration. Explore the code and read each repository's setup notes.</p></div>
+      <div class="project-grid">
+        <article class="project">
+          <div class="project-top"><div class="project-mark" aria-hidden="true">▦</div><span class="mono">INDIVIDUAL PROJECT</span></div>
+          <h3>Student Portal</h3>
+          <p>A Flask web application for capturing, displaying and managing student personal and academic records. Includes database-backed records, form handling and profile-image upload functionality.</p>
+          <div class="tags"><span class="tag">Python</span><span class="tag">Flask</span><span class="tag">SQLite</span><span class="tag">HTML/CSS</span><span class="tag">JavaScript</span></div>
+          <div class="project-links"><a class="text-link" href="https://github.com/EbbsOnline3/Student-Portal" target="_blank" rel="noopener noreferrer">View source on GitHub ↗</a></div>
+        </article>
+        <article class="project">
+          <div class="project-top"><div class="project-mark" aria-hidden="true">⌘</div><span class="mono">TEAM PROJECT · 6 WEEKS</span></div>
+          <h3>AmaliTech Training College Management System</h3>
+          <p>Collaborative school management application developed during a six-week AmaliTech voluntary internship. I contributed to both frontend and backend work. The React interface uses React Router DOM for navigation between role-specific areas, including student, teacher and admin dashboards. I also worked on protected routes and attempted Supabase authentication/data integration.</p>
+          <div class="tags"><span class="tag">React</span><span class="tag">React Router DOM</span><span class="tag">Supabase</span><span class="tag">Team collaboration</span></div>
+          <div class="project-links"><a class="text-link" href="https://github.com/AVI-6/Amalitech-Training-College-MS" target="_blank" rel="noopener noreferrer">View team repository ↗</a></div>
+        </article>
+        <article class="project">
+          <div class="project-top"><div class="project-mark" aria-hidden="true">◇</div><span class="mono">FRONTEND PROJECT</span></div>
+          <h3>Mini E-Commerce Application</h3>
+          <p>A small e-commerce-style interface that renders product information and presents products in a user-facing web experience.</p>
+          <div class="tags"><span class="tag">JavaScript</span><span class="tag">HTML</span><span class="tag">CSS</span></div>
+          <div class="project-links"><a class="text-link" href="https://github.com/EbbsOnline3/" target="_blank" rel="noopener noreferrer">Explore my GitHub ↗</a></div>
+        </article>
+        <article class="project">
+          <div class="project-top"><div class="project-mark" aria-hidden="true">↗</div><span class="mono">ONGOING CAREER JOURNEY</span></div>
+          <h3>Engineering + Software</h3>
+          <p>My long-term interest is to apply software to engineering problems such as materials data, quality processes and manufacturing workflows. I'm building a software career while bringing an engineering mindset to the work.</p>
+          <div class="tags"><span class="tag">Problem solving</span><span class="tag">Engineering</span><span class="tag">Software</span></div>
+          <div class="project-links"><a class="text-link" href="https://www.linkedin.com/in/ebenezer-ekuful/" target="_blank" rel="noopener noreferrer">Connect on LinkedIn ↗</a></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="skills">
+    <div class="wrap">
+      <div class="section-head"><span class="mono">TECHNICAL TOOLKIT</span><h2>What I work with.</h2><p>Core skills are listed first; technologies I have only explored are identified separately.</p></div>
+      <div class="two-col">
+        <div class="info-card skill-list">
+          <div class="skill-row"><strong>Languages</strong><span>Python, JavaScript, SQL, HTML5, CSS3</span></div>
+          <div class="skill-row"><strong>Frontend</strong><span>React, React Router DOM, responsive UI</span></div>
+          <div class="skill-row"><strong>Backend</strong><span>Flask, server-side routing, forms, database operations</span></div>
+          <div class="skill-row"><strong>Databases</strong><span>SQLite; exposure to Supabase and MySQL</span></div>
+          <div class="skill-row"><strong>Tools</strong><span>Git, GitHub, Vite</span></div>
+          <div class="skill-row"><strong>Additional</strong><span>Basic TypeScript, Node.js and Express.js</span></div>
+        </div>
+        <div class="info-card">
+          <h3>How I approach development</h3>
+          <ul>
+            <li>Build around clear user flows and practical requirements.</li>
+            <li>Keep code readable and use version control to manage changes.</li>
+            <li>Learn through debugging, documentation and iteration.</li>
+            <li>Collaborate with teammates and communicate technical decisions.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="background">
+    <div class="wrap">
+      <div class="section-head"><span class="mono">MY BACKGROUND</span><h2>Engineering mindset. Software focus.</h2><p>My materials engineering education strengthened my analytical thinking and interest in solving real-world problems. My immediate career goal is to contribute as a software developer and continue growing through hands-on team experience.</p></div>
+      <div class="two-col">
+        <article class="info-card">
+          <span class="mono">EDUCATION</span>
+          <h3 style="margin-top:12px">BSc, Materials Engineering</h3>
+          <p>Kwame Nkrumah University of Science and Technology (KNUST)</p>
+          <p><strong>Graduated:</strong> November 2024</p>
+        </article>
+        <article class="info-card">
+          <span class="mono">PROFESSIONAL TRAINING</span>
+          <h3 style="margin-top:12px">Full Stack Python Developer</h3>
+          <p>StartoCode · Completed July 2026</p>
+          <p>Training in HTML, CSS, JavaScript, Python, SQL and Flask, including frontend and full-stack capstone projects.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <div class="wrap">
+      <div class="contact-panel">
+        <div><span class="mono">LET'S CONNECT</span><h2>I'm ready for my next opportunity.</h2><p>I'm seeking junior software developer, Python/Flask, React and suitable full-stack opportunities. If you are hiring or would like to discuss a project, I'd be glad to connect.</p></div>
+        <div class="contact-actions">
+          <a class="btn primary" href="mailto:kwadwoekuful@gmail.com">Email me</a>
+          <a class="btn" href="https://github.com/EbbsOnline3/" target="_blank" rel="noopener noreferrer">GitHub profile ↗</a>
+          <a class="btn" href="https://www.linkedin.com/in/ebenezer-ekuful/" target="_blank" rel="noopener noreferrer">LinkedIn profile ↗</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer><div class="wrap footer-inner"><span>© <span id="year"></span> Ebenezer Ekuful</span><span>Built with HTML, CSS and JavaScript · <a href="#home">Back to top ↑</a></span></div></footer>
+<script>
+  const root = document.documentElement;
+  const themeToggle = document.getElementById('themeToggle');
+  const savedTheme = localStorage.getItem('portfolio-theme');
+  if (savedTheme === 'light') root.setAttribute('data-theme', 'light');
+  themeToggle?.addEventListener('click', () => {
+    const next = root.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
+    if (next === 'light') root.setAttribute('data-theme', 'light');
+    else root.removeAttribute('data-theme');
+    localStorage.setItem('portfolio-theme', next);
+  });
+  const menuToggle = document.getElementById('menuToggle');
+  const navlinks = document.getElementById('navlinks');
+  menuToggle?.addEventListener('click', () => {
+    const open = navlinks.classList.toggle('open');
+    menuToggle.setAttribute('aria-expanded', String(open));
+  });
+  navlinks?.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
+    navlinks.classList.remove('open');
+    menuToggle?.setAttribute('aria-expanded', 'false');
+  }));
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
